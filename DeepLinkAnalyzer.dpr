@@ -14,10 +14,7 @@ begin
 {$IFDEF DEBUG}
   ReportMemoryLeaksOnShutdown := True;
 {$ENDIF}
-
-  //deival909 test git
-  //asdfasdf
-  //asdasd
+  //
   mainController := TMainController.Create();
   try
     Application.Initialize;
