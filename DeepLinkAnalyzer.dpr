@@ -3,7 +3,8 @@ program DeepLinkAnalyzer;
 uses
   Vcl.Forms,
   DeepLinkAnalyzer.Views.Main in 'Views\DeepLinkAnalyzer.Views.Main.pas' {MainForm},
-  DeepLinkAnalyzer.Controllers.Main in 'Controllers\DeepLinkAnalyzer.Controllers.Main.pas';
+  DeepLinkAnalyzer.Controllers.Main in 'Controllers\DeepLinkAnalyzer.Controllers.Main.pas',
+  DeepLinkAnalyzer.Link in 'Models\DeepLinkAnalyzer.Link.pas';
 
 {$R *.res}
 
